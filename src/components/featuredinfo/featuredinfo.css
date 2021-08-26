@@ -1,0 +1,52 @@
+.feat-outer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* background-color: indianred; */
+}
+
+.featured {
+  background-color: rgb(169, 133, 253);
+  margin: 10px;
+  width: 100%;
+  padding: 10px;
+  padding-left: 20px;
+  border-radius: 5px;
+  box-shadow: 14px 11px 11px -6px rgba(0, 0, 0, 0.64);
+  -webkit-box-shadow: 14px 11px 11px -6px rgba(0, 0, 0, 0.64);
+  -moz-box-shadow: 14px 11px 11px -6px rgba(0, 0, 0, 0.64);
+}
+
+.feat_topic {
+  font-weight: bold;
+  font-size: large;
+}
+
+.feat_values_div {
+  /* display: flex;
+  flex-direction: row; */
+}
+
+.feat_val {
+  font-size: x-large;
+  font-weight: bold;
+  padding-right: 30px;
+}
+
+.feat_val_plus_minus {
+  font-size: small;
+}
+
+.feat_description {
+  color: rgb(97, 96, 96);
+}
+
+.icon_feat.up {
+  color: green;
+  font-size: 14px;
+}
+
+.icon_feat.down {
+  color: red;
+  font-size: 14px;
+}
