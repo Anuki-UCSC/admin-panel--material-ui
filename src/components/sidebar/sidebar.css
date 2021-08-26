@@ -1,0 +1,10 @@
+.sidebarlistItem {
+  padding-left: 20px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.sidebarlistItem:hover {
+  background-color: indianred;
+}

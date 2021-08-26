@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+}
+
+.sidebarclass {
+  flex: 1;
+  /* background-color: green; */
+}
+
+.otherclass {
+  flex: 4;
+  /* background-color: hotpink; */
+}
