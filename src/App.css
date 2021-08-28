@@ -1,5 +1,6 @@
 .container {
   display: flex;
+  height: 100%;
 }
 
 .sidebarclass {
@@ -9,5 +10,6 @@
 
 .otherclass {
   flex: 4;
+
   /* background-color: hotpink; */
 }
