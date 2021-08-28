@@ -22,6 +22,9 @@ export default function Sidebar() {
                         <div className='sidebarlistItem'>
                             Analytics
                         </div>
+                        <div className='sidebarlistItem'>
+                            meterial ui 
+                        </div>
                     </div>
                 </div>
             </div>
