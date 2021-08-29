@@ -93,6 +93,19 @@ export default function ReusableEmpform() {
             value={values.hireDate}
             onChange={handleInputChange}
           />
+
+          <Controls.Button
+            variant="contained"
+            size="large"
+            color="primary"
+            text="Submit"
+          />
+          <Controls.Button
+            variant="contained"
+            size="large"
+            color="default"
+            text="Reset"
+          />
         </Grid>
       </Grid>
     </Form>
