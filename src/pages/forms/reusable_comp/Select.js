@@ -1,3 +1,4 @@
+import { FormHelperText } from "@material-ui/core";
 import {
   FormControl,
   InputLabel,
@@ -7,7 +8,7 @@ import {
 import React from "react";
 
 export default function Select(props) {
-  const { name, label, value, onChange, deparmentList } = props;
+  const { name, label, value, error = null, onChange, deparmentList } = props;
 
   const convertToDefEventPara = (name, value) => ({
     target: {
@@ -20,8 +21,7 @@ export default function Select(props) {
     <FormControl variant="outlined">
       <InputLabel id="demo-simple-select-outlined-label">{label}</InputLabel>
       <MuiSelect
-        // labelId="demo-simple-select-outlined-label"
-        // id="demo-simple-select-outlined"
+        {...(error && { error: true })}
         name={name}
         value={value}
         onChange={(e) => onChange(convertToDefEventPara(name, e.target.value))}
@@ -33,6 +33,7 @@ export default function Select(props) {
           </MenuItem>
         ))}
       </MuiSelect>
+      {error && <FormHelperText>{error}</FormHelperText>}
     </FormControl>
   );
 }
