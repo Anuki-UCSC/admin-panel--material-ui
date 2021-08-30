@@ -5,6 +5,7 @@ import Appbar from "../../components2/appbar/Appbar";
 import PageHeader from "../../components2/pageHeader/PageHeader";
 import Sidemenu from "../../components2/sidemenu/Sidemenu";
 import ReusableEmpform from "../forms/ReusableEmpform";
+import ReusableTable from "../tables/ReusableTable";
 
 const useStyles = makeStyles({
   mui_home: {
@@ -32,7 +33,8 @@ export default function Mui_home() {
           icon={<PeopleAlt />}
         />
         <Card className={classes.form_container}>
-          <ReusableEmpform />
+          {/* <ReusableEmpform /> */}
+          <ReusableTable />
         </Card>
       </div>
     </div>
